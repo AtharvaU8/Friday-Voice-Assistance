@@ -167,6 +167,9 @@ if __name__ == "__main__":
         elif 'camera' in query:
             open_camera()
         
+        elif 'chrome' in query:
+            open_chrome()
+
         elif 'vs code' in query or 'code' in query:
             open_code()
 
@@ -217,4 +220,4 @@ if __name__ == "__main__":
             exit()
 
         else:
-            speak("I amm sorry, but I can't help with that.")
+            speak("I am sorry, but I can't help with that.")
